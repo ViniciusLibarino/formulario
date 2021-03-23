@@ -26,8 +26,8 @@ div.border{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
-    height: 70%;
+    width: 35%;
+    height: 85%;
     background: #1d1b33;
     border-radius: 13px;
 }
@@ -37,6 +37,7 @@ div.head{
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 15px;
 }
 
 div.head button{
@@ -56,8 +57,8 @@ div.head button:focus{
 
 div.form{
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin-top: 70px;
     width: 80%;
     height: 90%;
 }
@@ -67,7 +68,6 @@ div.form form{
     flex-direction: column;
     align-items: center;
     font-size: 25px;
-    margin-top: 10px;
 }
 
 div.form form span{
@@ -75,8 +75,8 @@ div.form form span{
 }
 
 div.form form label{
-    margin-bottom: 15px;
-    margin-top: 25px;
+
+    margin-top: 40px;
 }
 
 div.form form label input{
@@ -90,7 +90,7 @@ div.form form label input{
 
 div.form form label input:focus{
     outline: none;
-    background: rgb(205, 255, 253);
+    background: rgb(209, 209, 209);
     border: 3px solid #8880fe;
 }
 
@@ -103,7 +103,7 @@ div form input[type="submit"]{
     border-radius: 32px;
     background: #261477;
     color: white;
-    margin-top: 25px;
+    margin-top: 70px;
     font-size: 23px;
     transition: all .3s ease-in-out;
 }

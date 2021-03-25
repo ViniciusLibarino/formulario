@@ -13,15 +13,15 @@
     <title>Formulário</title>
 </head>
 <body>
-    <div class="content">
-        <div class="border">
-            <div class="head">
-                <button>Entrar</button>
-                <button>Criar Conta</button>
-            </div>
-
-            <div class="form">
-                <form action="">
+    <div class="container">
+        <div class="abas">
+            <button class="ativa" data-aba="entrar">Entrar</button>
+            <button data-aba="cadastrar">Criar Conta</button>
+        </div>
+        
+        <div class="conteudos">
+            <div data-conteudo="entrar">
+                <form class="form">
                     <label for="email">
                         <span>Email</span>
                         <input type="email" id="email">
@@ -35,8 +35,8 @@
                 </form>
             </div>
 
-            <div class="hide">
-                <form action="">
+            <div class="hide" data-conteudo="cadastrar">
+                <form class="form">
                     <label for="name">
                         <span>Nome</span>
                         <input type="text" id="name">
@@ -50,29 +50,29 @@
                         <input type="password" id="password">
                     </label>
 
-                    <input type="submit" value="Cadastrar-se">
+                    <input type="submit" value="Cadastrar">
                 </form>
             </div>
-
-            <div class="alternativo">
-                <span>OR</span>
-            </div>
-
-            <footer class="midias-sociais">
-                <a href="">
-                    <img src="/assets/google.png" alt="Google">
-                </a>
-
-                <a href="">
-                    <img src="/assets/facebook.png" alt="Facebook">
-                </a>
-
-                <a href="">
-                    <img src="/assets/linkedin.png" alt="LinkedIn">
-                </a>
-            </footer>
         </div>
-    </div>
 
+        <div class="alternativo">
+            <span>OU</span>
+        </div>
+
+        <footer class="midias-sociais">
+            <a href="">
+                <img src="/assets/google.png" alt="Google">
+            </a>
+
+            <a href="">
+                <img src="/assets/facebook.png" alt="Facebook">
+            </a>
+
+            <a href="">
+                <img src="/assets/linkedin.png" alt="LinkedIn">
+            </a>
+        </footer>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

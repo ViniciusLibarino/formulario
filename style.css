@@ -6,6 +6,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 button{
     cursor: pointer;
 }
@@ -31,30 +35,19 @@ div.container{
     border-radius: 13px;
 }
 
-div.border{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 35%;
-    height: 85%;
-    background: #1d1b33;
-    border-radius: 13px;
-}
-
 header.abas{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    margin-top: 15px;
+    width: 90%;
+    margin-top: 45px;
 }
 
 header.abas button{
-    margin-top: 35px;
     width: 80%;
     background: #1d1b33;
-    color: rgba(255, 255, 255, 0.582);
-    font-size: 35px;
+    color: #ffffff94;
+    font-size: 3.5rem;
     font-weight: 500;
     outline: none;
 }
@@ -71,7 +64,7 @@ header.abas button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 .conteudos div .form span{
@@ -79,7 +72,6 @@ header.abas button{
 }
 
 .conteudos div .form label{
-
     margin-top: 40px;
 }
 
@@ -88,22 +80,22 @@ header.abas button{
     height: 35px;
     border-radius: 7px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.4rem;
     border: 2px solid #fff;
     outline: 0;
 }
 
 main.conteudos div .form input[type="submit"]{
     cursor: pointer;
-    width: 50%;
-    height: 35px;
+    width: 70%;
+    height: 45px;
     outline: 0;
     border: none;
     border-radius: 32px;
     background: #261477;
     color: white;
     margin-top: 70px;
-    font-size: 23px;
+    font-size: 2.3rem;
     transition: all .3s ease-in-out;
 }
 
@@ -116,9 +108,9 @@ div .alternativo{
 }
 
 div .alternativo span{
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     font-weight: 400;
-    color: rgba(255,255,255, 0.3);
+    color: #ffffff4d;
     position: relative;
 }
 
@@ -126,10 +118,10 @@ div .alternativo span::before, div .alternativo span::after{
     position: absolute;
     content: '';
     height: 1px;
-    width: 100px;
+    width: 700%;
     bottom: 50%;
     right: 50px;
-    background: rgba(255,255,255, 0.3);
+    background: #ffffff4d;
 }
 
 div .alternativo span::after{
@@ -155,4 +147,72 @@ div.hide .form{
 .abas .ativa{
     font-weight: 800;
     color: #cccccc;
+}
+
+@media(max-width: 1300px){
+    html{
+        font-size: 60%;
+    }
+    div.container{
+        width: 45%;
+    }
+}
+
+@media(max-width: 1190px){
+    div.container{
+        width: 55%;
+    }
+}
+
+@media(max-width: 1042px){
+    html{
+        font-size: 59%;
+    }
+    div.container{
+        width: 65%;
+    }
+}
+
+@media(max-width: 940px){
+    html{
+        font-size: 57%;
+    }
+    div.container{
+        width: 75%;
+    }
+    div footer.midias-sociais img{
+        width: 40px;
+        margin: 20px;
+    }
+}
+
+@media(max-width: 750px){
+    div.container{
+        width: 85%;
+    }
+    
+}
+@media(max-width: 490px){
+    html{
+        font-size: 50%;
+    }
+    div.container{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+    div footer.midias-sociais img{
+        width: 37px;
+        margin: 20px;
+    }
+}
+
+@media(max-width: 350px){
+    html{
+        font-size: 40%;
+    }
+    div footer.midias-sociais img{
+        width: 32px;
+        margin: 20px;
+    }
 }

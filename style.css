@@ -89,13 +89,8 @@ header.abas button{
     border-radius: 7px;
     font-weight: 400;
     font-size: 14px;
-    border: 2px solid #8880fe;
+    border: 2px solid #fff;
     outline: 0;
-}
-
-.conteudos div.form label input:focus{
-    background: rgb(209, 209, 209);
-    border: 3px solid #8880fe;
 }
 
 main.conteudos div .form input[type="submit"]{
